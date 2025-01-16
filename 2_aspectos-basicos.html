@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/styles.css">
+    <title>aspectos basicos HTML</title>
+</head>
+<body>
+    <nav>
+        <a href="/index.html">HOME </a>
+    </nav>
+
+    <H1>HTML ejemplos basicos. </H1>
+
+    <p>anteriormente era necesario conocer las estrucutra mas basica para que el navegador pueda identificar el docuemento como un HTML, como el DOCTYPE, pero con la ayuda de los editores de codigo, como vs CODE, no es necesario conocerlo a la perfeccion pero si conocer cual es su funcion. al menos tener la nocion de porque esta ahi</p>
+
+    <br>
+
+    <p>el &lt;!DOCTYPE&gt;, indica que es un docuemento HTML</p>
+    <br>
+    <p>este esta iniciado y terminado con la etiqueta &lt;HTML&gt; &lt;/HTML&gt;</p>
+
+    <br>
+    <p>la parte vicible del documento HTML es la que esta dentro de &lt;body&gt;</p>
+
+    <br>
+
+    <h2>encabezados</h2>
+    <p>esto son etiquetas que nos sirven para diferenciar a que hace referencia el parrafo, estos estan compuesto desde &lt;h1&gt; &lt;/h1&gt; -> &lt;h6&gt;&lt;/h6&gt;</p>
+
+    
+    <p>a que me refiero. en las paginas web debe haber una sintaxis, una semantica, esto es lo que le da el significado al codigo a lo que se dice, <b>H1</b> se usa para el titulo de la pagina por lo que solo debe haber 1 H1 por pagina.  </p>
+
+    
+    <p>despues tenemos al <b>h2</b> que este es para sibtitulos los cuales pueden haber varios y asi sucesibamente hasta llegar al <b>h6</b> </p>
+
+    <h2>parrafos</h2>
+    <p>los parrafos son lo que su nombre indica el contenido se va aescribir adentro de un div, algun articulo, algun sectoin, etc. como lo que se esta haciendo ahorita </p> 
+
+
+    <h2>Links</h2>
+    <p>un link es un elemeto que sirve para anclar un enlace &lt;a&gt; &lt;/a&gt;, este contiene  varios atributos pero el mas importante es el (href="") en donde entre las comillas va el link al cual queremos que nos masnde en case de hace click en el</p>
+
+    <p>ejmplo:</p>
+    <a href="https://www.google.com.mx">da click</a>
+
+    <p>pero igual hay otro que en lo perosnal me gusta ponerlo, esto porque, porque asi como esta este cargara la pagina en la misma en la que estamos en cambio con el atributi (target="_blank") este se abrira en otra pestaña</p>
+
+    <a href="https://www.google.com.mx" target="_blank">cambio: da click</a>
+
+    <h2>imagenes</h2>
+    <p>
+        las imagenes son un elemeto que se usa para mostrar una imagen en la pagina web, este tiene el siguiente formato &lt;img src="" alt=""&gt; el atributo src es el que indica la ruta de la imagen y el alt es el texto que se mostrara en caso de que la imagen no se pueda cargar
+    </p>
+
+    <p>ejemplo:</p>
+    <img src="/recursos/imagenes/meow.jpg" alt="gatiko">
+
+    <p>la direccion puede ser tanto local de la pc como de algun lado en internet, pero muy importante si va ser una imgane  direccionada de alguna carpeta que esta sera dentro de la carpeta que engloba al pryecto, no mas alla, porque cunado esta se siba por ejemplo, cunado alguien cargue la pagina no podra ver la imagen porque esta estaba en una carpeta local de la pc. </p>
+
+    <p>el alt funciona para esas ocaciones, no se pudo encoentrar la imagen entonces se muestra un titulo que tratara de ilustrar lo que es la imagen</p>
+
+    <p>imagen desde internet:</p>
+    <img src="https://www.aviationgroup.es/wp-content/uploads/2023/06/diferentes-tipos-de-aviones-1024x574.jpg" alt="avionsito">
+</body>
+</html>
