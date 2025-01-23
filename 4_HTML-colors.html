@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>COLORS in HTML</h1>
+
+    <p>los colores en HTML estan predefinidos por nombre de sus colores o con sus respectivos valores RGB, HEX, HSL, RGBA o HSLA </p>
+    
+    <p>perfectamente se pude usar los colores dentro de un documento HTML, pero lo ideal es tener un documento CSS y anclarlo aqui medniade un link en la cabecera del docuemtno</p>
+
+    <p>pero por este pondre el atributo de styles de cada etiqueta pero no es lo ideal pero podremos visualizar de mejor manera a que color o a que referencia se esta haciendo. ya haremos otro cursisto con CSS3 y JS.</p>
+
+    <p> HTML puede soportar hasta 140 nombres de colores, podemos verlos en el siquiente link</p>
+
+    <a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank"><b>nombre de colores en HTML</b></a>
+
+    <h2>background color</h2>
+
+    <p>se pude dar un color a los elemtnos en HTML como por ejemplo:</p>
+
+    <h1 style="background-color:dodgerblue;">Hello world</h1>
+    <p style="background-color: tomato;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam rerum quaerat veniam, voluptate, sint illum deserunt commodi dolore incidunt doloremque eaque magni ratione neque maiores odio ipsum temporibus, perferendis officia.</p>
+
+    <h2>color al texto</h2>
+    <p>al igual que el texto, toa etiqueta puede ser decorada al gusto de cada quien, hay excepciones como imagenes, video u audios que por su naturaleza lo no pueden ser modificadas a tal modo como las etiqeutas mas alla del tamanio y la posicion en donde estaran en la pagina</p>
+
+    <p>ejemplo sobre color en texto</p>
+
+    <h1 style="color:Tomato;">Hello World</h1>
+
+    <p style="color:DodgerBlue;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt animi quod minima architecto fugiat ut nam rem laborum, earum omnis delectus tenetur culpa magnam reiciendis recusandae similique quia deleniti exercitationem.</p>
+
+    <p style="color:MediumSeaGreen;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+
+    <h2>color en los bordes</h2>
+    <p>al igualq ue los borden que encierran a las etiquetas, pero creo que esto se puede cambiar el tamanio de estos no se si en HTML o en CSS, porque por ejemplo un H1 abarcara todo lo ancho de la pantalla y con algunas propiedades se puede que tan solo abarque el ancho de la palabra</p>
+
+    <p>ejemplos:</p>
+
+    <h1 style="border: 2px solid tomato;">Hello world</h1>
+    <h1 style=" border: 2px solid dodgerblue;">Hello world</h1>
+    <h1 style="border:2px solid violet;">Hello world</h1>
+
+    <h2>valores de colores</h2>
+
+    <p>en HTML se pueden usar valores especificios de RGB, HEX, HSL, RGBA y HSLA, estos corresponder a diferentes estilos de representa run color</p>
+    <p>ejemplos:</p>
+
+    <h1 style="background-color:rgb(255, 99, 71);">...</h1>
+    <h1 style="background-color:#ff6347;">...</h1>
+    <h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+
+    <h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+    <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
+
+    <h2>HTML colores RGB y RGBA </h2>
+
+    <p>colos colores RGB son representados por rojo, verde y azul y el RGBA es una extension del RGB con un alpha channel(opacidad)</p>
+
+    <H2>RGB valores</H2>
+
+    <p>en HTML, pero para ser mas precisos esto se estaria usando en CSS, pero de aqui parte la base, porque recordar que lo ideal es que todo el estilo de la pagina este en uno o varios docuemntos solamente para eso que seria CSS</p>
+
+    <p>esto estaria representaod en el CS como <b>rgb(red, green, blue)</b></p>
+
+    <p>donde cada parametro, tanto el rojo, verde y el azul estan definidos con una isntensidad de color que va desde el 0 a 255, lo que da un total de 16777216 posibles colores.</p>
+
+    <p>ejemplo</p>
+
+    <p style="background-color: rgb(60, 179, 113);">verde</p>
+    <p style="background-color: rgb(244, 68, 167);" >color ramdom</p>
+
+    <h2>valores de los colores RGBA</h2>
+
+    <p>los colores RGBA son lo mismo que el RGB con al diferencia que este tiene un parametro mas en donde se define la opacidad del elemento que puede ir desde el 0.0 a 1</p>
+
+    <p>ejemplo</p>
+
+    <p style="background-color: rgba(128,151,120,0.6);">color ramdom 2</p>
+
+    <h2>valores de los colores HEX</h2>
+
+    <p>en los estilso en HTML-CSS se puede usar un valor especifico representaod en hexadecial</p>
+
+    <p>el formato estaria represtnado por <b>#rrggbb</b></p>
+
+    <p>donde rr(red),gg(green) y bb(blue) estan represetnado con valoers hexadecimales que van desde el 00 a ff = 0 a 255</p>
+
+    <p>por ejemplo si ponemos <b>#00ff00</b> se estaria represetnado el color verde dado que la parte que represeta en verde esta en su maximo valor. </p>
+
+    <p>ejemplos:</p>
+
+    <p style="background-color: #975c47;">color random HEX</p>
+
+    <h2>colores HSL y HSLA</h2>
+
+    <p>HSL significan tono, saturicidad y limucidad, HSLA son una extension de esta con una opacidad</p>
+
+    <p>en HTML-CSS HSL se puede usar de la siguiente manera <b>hsl(hue, saturation, lightness)</b></p>
+
+    <p>tono es un grado de va desde los 0 a 360. donde podemos ver que 0 es rojo, 120 verde y 240 azul. </p>
+
+    <p>saturazion es un valor en porcentaje que va de 0% es un tono de gris y el 100% es el color por completo </p>
+
+    <p>limuzidad tambien es un valor porcentual donde 0% es negro y 100% es blanco</p>
+
+    <p>ejemplo:</p>
+
+    <p style="background-color: hsl(199,75%,42%);">ejemplo HSL</p>
+
+    <p>la saturacion se puede describir como la intensidad del color donde el 100% es el color puro el 50% es medio grisasio pero se puede ver el color y el 0% es completamente gris por lo que no se ve el color a su maximo esplendor</p>
+
+    <p>lumisidad:<br>se puede describir que tanta luz se le quiere dar al color. donde entre mas al 0% mas negro se vuelve y mas al 100% mas blanco este se vuelve</p>
+
+    <p>HSLA</p>
+    <p>este es lo mismo al HSL nomral con la diferencia que ste tiene un parametro con el que se mide la opacidad del color que ronde el 0.0 al 1.0</p>
+
+
+</body>
+</html>
