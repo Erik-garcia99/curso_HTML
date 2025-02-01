@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML links</title>
+</head>
+<body>
+    <a href="/index.html"><b>HOME</b></a>
+    <h1 id="title">Hyperlinks</h1>
+
+    <p>en HTML existen los links en los cuales les damos click y nos diregue a otors elemento, esto ya los hemos visto pero en este capitulo se mira un poco mas a fondo</p>
+
+
+    <h2>HTML link Sintaxis</h2>
+
+    <p>la etiqeuta <mark><b> &lt;a&gt; </b></mark>, es la etiqeuta usada para rediriccionar a otra pagina o incluso partes dentro de la misma pagina con ID, class de ese elemeto. </p>
+
+    <p>este cuenta con un atributo el cual es <mark><b>href="<i>link</i>"</b></mark>, en donde se le ingresa el link a donde quiere que vaya cunado se haga click sobre el. </p>
+
+    <p>ejemplo:</p>
+
+    <a href="https://www.w3schools.com/" target="_parent">Visit W3Schools.com!</a>
+
+    <p>la otra propiedad lo que hace es abrir esa pagina en otra pestania del navegador </p>
+
+    <h2>atributo <mark><b>target</b></mark></h2>
+
+    <p>este atributo se usa para decirle al navegador donde o como deberia de abrir la pagina a la cual se esta redireccionando</p>
+
+    <p>si nos e agrega o el atritbuto <mark><b>_self</b></mark>, realizan lo mismo, cargan la pagina en la misma pagina en donde se esta</p>
+
+    <p><b>_balnk</b>: este ya lo vismo, abre la pagina en otra pestania</p>
+
+    <p><b>_parent:</b>abre el coeumento en el marco principal</p>
+
+    <p><b>_top</b>:abre el coeumento en el cuerpo completo de la ventana </p>
+
+
+    <h2>link absolutos vs relativos</h2>
+
+
+    <p><b>absoluta</b>: en este se agrega el link completo de interner de un citio web como el link a google</p>
+
+    <p>ejempplo</p>
+
+    <p><a href="https://www.google.com/">Google</a></p>
+
+    <p><b>relativa</b>: en esta es la guia hacia un archivo local en la carpeta del proyecto por ejemplo</p>
+
+    <p>ejemplos</p>
+
+    <img src="/recursos/imagenes/meow.jpg" alt="gatiko" width="300px">
+
+    <p>la imagne sigue una ruta relativa dentro de nuestro sistema </p>
+
+    <h2>link un correo electronico</h2>
+
+    <p>usa <mark><b>milto:</b></mark> entreo del href antes del correo, para poder poner un mail</p>
+
+    <a href="milto:gerik9500@gmail.com">send email</a>
+
+    <h2>linkear contenido dentro de la misma pagina</h2>
+
+    <p>suponiendo que la pagina es muy larga se puede hacer brincos o linkear diferentes contenidos dentro de la misma pagina esto se hace medainte los ID que deben de tener la mayoria de elemtnos o las clases</p>
+
+    <a href="#title">ir al inciio</a>
+
+</body>
+</html>

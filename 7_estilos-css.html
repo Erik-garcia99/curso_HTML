@@ -3,6 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- en este documento tendremos un CSS inclustado aqui, pero como se dijo no es lo ideal, por ahora usaremos las etiquetas en si mismo para darles sis estilos, pero lo ideal seria asignarles una clase o un ID para darle estilos en especial a cierto grupo de etiqeutas o en indivual -->
+
+    <style>
+        h1{
+            color:blue;
+            font-family: Verdana;
+            font-size: 300%;
+        }
+
+        #font_preview{
+            color: red;
+        
+            font-family:Courier;
+            font-size: 160%;
+        }
+
+        #border_porperty{
+            border: 2px solid powderblue;
+ 
+        }
+
+        #example-padding{
+            padding: 30px;
+            border: 2px solid powderblue;
+        }
+
+        #example-margins{
+            margin: 50px;
+            border: 2px solid powderblue;
+        }
+    </style>
+
     <title>estilos CSS</title>
 </head>
 <body>
@@ -30,6 +63,39 @@
 
     <p>si se crea un docuemnto o una serie de dociuemtno dedicados al estilo, este puede ser llamado desde tnatos docuemntos HTML tenga el proyecto, aparte este solo se encargara de aplicar estilos por lo que puede ser retutilizado por todos los docuemtnos HTML, TS, JS, JSX haya en le proyecto. </p>
 
-    <!-- nos uqedamos en CSS colors, font, y tamanio -->
+
+    <h2>CSS colors, Font y Size</h2>
+
+    <p>de las propiedades mas basicos que tenemso para darle un estilo basico a nuestras paginas sera el darle un color, asi como un tamanio y un estilo de fuente a nuestros textos</p>
+
+    <p>entre ests propiedades estan <mark><b>Color</b></mark>, <mark><b>font-family</b></mark>, <mark><b>font-size</b></mark> </p>
+
+    <p>ejemplo</p>
+
+    <h1>This is a heading</h1>
+
+    <p id="font_preview">this is a paragraph</p>
+
+    <h2>CSS border</h2>
+
+    <p >define el borde al rededor del elmento HTML</p>
+
+    <p id="border_porperty">prueba de border</p>
+
+    <p>aqui se puede ver mas sobre lo que decia hace un moemento que cada elemento en su mayoria como estos de texto ocupan el total del anchi de la pantalla en caso de ocupar o no todo, hay propiedades que hacen que lo que ocupa la etiqueta solo sea el tamanio de dicha etiqueta</p>
+
+    <h2>CSS padding</h2>
+    <p>define el espacio que hay entre el texto y el borde</p>
+
+    <p>ejemplo</p>
+
+    <p id="example-padding">ejmplo de borde</p>
+
+
+    <h2>CSS Margin</h2>
+
+    <p>define el espacio fuera del borde de la etiqeuta</p>
+
+    <p id="example-margins">ejemplo del margin</p>
 </body>
 </html>
