@@ -1,0 +1,73 @@
+---------conceptos e repaso de HTML 
+
+atributos de las etiquetas: las eiquetas tienen varios atributos entre estas hay 2 muy importantes con las que podmeos identificar una solo o un grupo de etiqeutas
+los cuales son los identificadores (ID) y las clases (class). 
+
+la diferencia entre estos son, que un identifiacor (ID) es unico, por lo que solo ese tag tiene ese identificador
+
+tenemos las clases (class) el cual agrupo 2 o mas elementos bajo una misma clase, estos nos sirven mucho mas cunado estamos usando css 
+
+algunos elemtnos tienen el atributo title, que es util para mejorar la accesibilidad ya que los navegadores muestren el titulo cunado el raton pasa por encima de
+ellos.
+
+tenemos algunos caraceres especales, los cuales queremos usar en nuestro texto pero html los puede interperetar como prioos como puede ser el (<) 0 (>)
+por lo que estan los sigueitnes textos que nos indican lo sigueinte
+
+-&lt; : < 
+&gt; : >
+&amp; : &
+&quot; : "
+&nbsp; : (espacio en blanco)
+&apos; : ' 
+&ndash; : -
+
+
+cabecera de HTML
+el <head> :contiene infromacion que por lo genreal no se le muestra al usuario mas alla de <title> que es el titulo de la pagina que se muestra en la pestania del
+navegador, en esta seccion estan los metadatos <meta>, <link> (como para aseicuar un docuemnto css), <script> que carga docuemntos js, asi como tambien pueden ser 
+CDN para boostrap, etc. todo aquello que la pagina va a necesitar para su funcionamineto, cosas que el usuario no deberia ver
+
+-metadatos:estos porporcionan metainfromacion sobre el docuemnto, estos son muy importantes para el navvegador estos pueden tener la infrormacion por ejemplo del 
+creador de la mapina 
+<meta name="author" content="erik garcia ">
+
+
+enlaces a otros archivos
+
+<link rel="" href="">
+
+rel= indica la relacion entre ambos documentos 
+href = indica el docuemnto qe estamos cargando. puede ser absoluta o relativa, pero lo ideal es que sea una ruta relativa.
+
+ruta absoluta: esta es la ruta la cual tiene todo la direccion, si es web esto seria como https://www.webEjemplo.com/asset/../../docuemnto.css por dar un ejemplo
+				una ruta absoluta para un archivo desde la PC seria como C:/user/usuario/desktop/../../
+				lo cal no es lo ideal porque esta buscando algo en la misma PC
+				
+				
+ruta relativa: esta es la rta se hace referencia desde el archivo, puede ser para atras o hacia capretas mas adelante, pero siempre partiendo de la ruta actual 
+
+
+elemeos de JS: 
+
+<scrip>: dentro del mismo HTML se pueden inclui el script que se va usar, el codigo en JS que e usa para hacer dinamica la pagina 
+aunque lo ideal no es eso, lo ideal es que haya un archivo aparte con todo el JS, pero se podria 
+si se elige hacer un archivo separado este se hace refeencia como <script src="localid/../..contenido.js"></script>
+
+aunque se puede incluir en la cabecera lo que hacen mucho y casi la mayoria es que onene el script hasta el final de pagina, esto porque, porque los navegadores
+cargarn la infromacion sobre va leyendo, por lo que si es cript esta en la cabecera este puede que haga lenta a carga de la web, por lo que se pone al final
+es o ultimo en e body, despues del footer, se carga el script para mejorar esa demora en que carga todo.
+
+
+estilos CSS. 
+al igual que con script, se puede crear el mismo css dentro del html, lo cual no es lo ideal, lo ideal es que haya una archivo o varios con los distitnos estilo 
+y tan solo se mande a llamar 
+
+pero si se quiere hacer para algo en concreto se haria con <styles></styles>
+
+cuerpo del docuemnto 
+
+
+
+
+
+
