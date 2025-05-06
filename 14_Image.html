@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+<body>
+    
+    <a href="/index.html">HOME</a>
+
+    <h1>IMAGES</h1>
+
+    <hr>
+    <p>las imagenes son parte escencial en cualquier sitio web moderlo </p>
+
+    <h3>sintaxis de imagenes en HTML</h3>
+
+    <p>el HTML &lt;img&gt; se utiliza para incrustar una imagen dentro de una pagina web esta etiqeuta esta vacia, solo contiene atributos que hacen referencia a la imageny solo tiene etiqeuta de apertura mas no de cierre <br><br>
+    </p>    
+
+    esta requiere dos atributos <br><br>
+
+    <ul>
+        <li>
+            <b>src:</b> especifica la ruta de la imagen 
+            <br>
+            esta puede ser un enlace absoluto o relativos
+        </li>
+        <br>
+        <li>
+            <b>alt:</b> especifica un texto alternativo a la imagen <br> le da mayor importancia al SEO del navegador y util para herramientas de lectura de pantalla
+        </li>
+
+    </ul>
+
+    <hr>
+    <p>
+        sintaxis:
+
+        <b>&lt;img src="url"  alt="textto_alterno"&gt;</b>
+    </p>
+
+    <hr>
+    <h3>atributo src</h3>
+    <p>
+        el atributo <b>src</b> especifica la ruta de la imagen <br>
+
+        esta imagen lo ideal es que se encuentro de la carpteta del proyecto, que se acceda medinate una ruta relativa, ya que es mucho mas facil de trarla a excepticon que se decida hacer uso de una imagen en intrenet lo cual lo ideal es agregar el <b>alt</b> en caso que la imagen no se encuentr disponible
+    </p>
+
+    <hr>
+    <h3>atributo <b>alt</b></h3>
+
+    <p>
+        <b>alt: </b> este atrobuto proporciona un texto alternativo para una imagen si es usuario por alguna razon no puede verlo debe de ser un texto corto descriptivo
+
+    </p>
+
+    <hr>
+    <h3>tamanio de la imagen - ANCHO y ALTURA</h3>
+
+    <p>
+        para darle el tamanio de este se hace mediante el <b>CSS</b> el cual tiene 2 propiedades pra esto el <b>Width</b> que establece el ancho de la imagen y el <b>height</b> que establece el alto, lo ideal es solo usar 1 usar solo el ancho o solo el alto, porque si se usan los 2 cunado se haga mas peqnia la pantalla o mas grande la imagen se puede deformar y si solo se usa 1 el otro lado de establece por automatico lo ahce el navegador. 
+
+        ejemplo: seria dentro del codigo 
+
+        &lt;style&gt;{
+
+            img{
+                width:500px;
+                height:600px;
+            }
+        }
+
+        css tiene varios unidades de medicion entre los mas comines son los pixeles (px) y los em
+
+    </p>
+
+    <p>
+        la etiqeuta permite <b>GIFS</b>, usar una imagen como un enlace, esto se hace poniendo la imagen dentro de un tag &lt;a&gt; 
+    </p>
+
+    <hr>
+    <h3>formatos de imagenes comunes</h3>
+    <img src="/recursos/imagenes/imagenes.png" alt="listado de formatos soportados" style="width: 900px;">
+
+
+</body>
+</html>

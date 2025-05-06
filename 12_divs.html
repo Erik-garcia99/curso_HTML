@@ -114,6 +114,86 @@
 
    </div>
 
+   <hr>
+    <h2>Flex</h2>
+    <p>se eintrodujo el mododulo de diseño de CSS flexbox para facilitar el disenio de un disneio felxible y estrurar sin utilizar flotador <strong>float</strong> ni posicionamineto</p>
+
+    <p>veamos el ejemplo</p>
+
+    <style>
+        .in_block_flex{
+            display: flex;
+        }
+
+        .in_block_flex > div{
+            width: 33%;
+        }
+    </style>
+
+    <div class="in_block_flex">
+        <div style="background-color: aqua;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 9 million inhabitants.</p>
+        </div>
+          
+        <div style="background-color: burlywood;">
+            <h2>Oslo</h2>
+            <p>Oslo is the capital city of Norway.</p>
+            <p>Oslo has over 700,000 inhabitants.</p>
+        </div>
+          
+        <div style="background-color: wheat;">
+            <h2>Rome</h2>
+            <p>Rome is the capital city of Italy.</p>
+            <p>Rome has over 4 million inhabitants.</p>
+        </div>
+    
+       </div>
+
+
+    <hr>
+
+    <h2>rejilla <strong>Grid</strong></h2>
+    <p>
+        el CSS grid layour module ofrece un sistema de disenio basado en cuadricula con fulas y columnas, facilitan el diseno de la pagina web sin tener que usar float y posicionamiento <br>
+
+        suena como flex pero tiene la capacidad de definir mas de una fila y posicionar cada fila individualmetne <br>
+
+        este requiere que roddes el &lt;div&gt; elemtnso con otro &lt;div&gt; elemento y dar el estado como contenedor de cuadricula y debe de especificar el ancho de cada soluman
+    </p>
+
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+        }
+    </style>
+
+    <div class="grid-container">
+
+        <div style="background-color:#FFF4A3;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 9 million inhabitants.</p>
+        </div>
+
+        <div style="background-color:#FFC0C7;">
+            <h2>Oslo</h2>
+            <p>Oslo is the capital city of Norway.</p>
+            <p>Oslo has over 700,000 inhabitants.</p>
+        </div>
+
+        
+        <div style="background-color:#D9EEE1;">
+            <h2>Rome</h2>
+            <p>Rome is the capital city of Italy.</p>
+            <p>Rome has over 4 million inhabitants.</p>
+        </div>
+
+    </div>
+
+
 
 
 </body>
