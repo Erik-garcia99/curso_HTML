@@ -78,5 +78,37 @@ myVariable **= 2
 //=== igualdad de identidad, por tipo y valor 
 
 
+// != distinco que 
+//!== disintos que por identidad 
+
+
+// tenemos los operadores logicos al parecer seran iguales que en C 
+
+// tenemos el AND (&&)
+
+
+a = 1
+b = 1
+
+
+if( a && b == 1){
+    console.log("AND entro ")
+}
+
+//lo mimso esta funcionado con OR (||)
+
+// tensmos el complementos A1 NOT (!)
+
+// operadores terniarios 
+//forma de escribir condicionales, es el mismo que el de C 
+//se conforma de 2 partes el simbolo ( ? ) y los (:) que serapan los 2 posbibles valores 
+
+//vairbile ? seCimple : noCumple
+
+
+const isRainning = true 
+
+isRainning ? console.log("llueve"): console.log(" no llueve") 
+
 
 
