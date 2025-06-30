@@ -1,17 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
+    <!-- seccion de metadadtos  -->
+
+    <!-- este metadado le deja claro al navegador de quien ha creado o que empresa ha creado la pagina o aplicacion web  -->
+    <meta name="author" content="erik garcia chavez ">
+    <meta name="description" content="esta pagina es un resumen sobre lo que hay en una cabecera de HTML">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <title>que hay en el encabezado?</title>
 </head>
+
 <body>
     <a href="/index.html">HOME</a>
 
 
-    <p>el elemento &lt;head&gt; es un elemento que no se muestra al usuario, lo que hya dentro de el. contiene infromacion escencial de la pagina. como enlaces a hojas de estilo CSS, enlaces para peroanlizacion <b>favicon</b>, metadatos, etc..</p>
+    <p>el elemento &lt;head&gt; es un elemento que no se muestra al usuario, lo que hya dentro de el. contiene
+        infromacion escencial de la pagina. como enlaces a hojas de estilo CSS, enlaces para peroanlizacion
+        <b>favicon</b>, metadatos, etc..
+    </p>
 
 
     <h3>metadatos &lt;meta&gt;</h3>
+
+    <p>
+        los metadatos son datos que describen datos y HTML tiene una froma &lt;&lt;oficial&gt;&gt; de introducir
+        metadatos en un
+        documento.
+    </p>
+
+    <h3>añadir un autor y descripcion (dentro de los metadatos)</h3>
+
+    <p>
+        muchos elementos &lt;meta&gt; incluyen atrinutos <b>name</b> y <b>contenido</b>
+
+    <ul>
+        <li>
+            <b>name</b> : especifica el tipo de metadato del que se trata. el tipo d infromacion que contiene
+        </li>
+
+        <li>
+            <b>content</b> : especifica el conenido del metadado en si
+        </li>
+    </ul>
+
+    en web no se podra apreciar los metadatos por lo que es necesario ver en codigo o desde el inspeccionar del
+    navegadro ir al head de este codigo
+    </p>
+
+    <br>
+    <hr>
+
+    <h2>otros tipos de metadatos </h2>
+
+    <p>
+        al navegar nos podemos encontrar otros tipos de metadatos.
+
+        por ejemplo <a href="https://ogp.me/" target="_blank">Open graph data</a> es un protocolo de metadaos que
+        invento facebook para proveer metadaso mas ricos para los sitios web.
+
+
+
+    </p>
+
+    <br>
+    <hr>
+
+    <h2>
+        agregar iconos personalizados a tu sitios
+    </h2>
+
+    <p>
+        en la cabecera, se puede agregar referencias a iconos personlaidos,que se mostraran en determinados contextos.el
+        mas comun es el favicon. el favicon es un icono cuadrado de 16 pixeles. es el que se muestra en la pestaña del
+        navegador que contiene cada pagina abierto.
+
+        para poder añadir un favicor debemos guardar la imagen con la extension <b>.icon</b>
+
+        para agregarlos podemos agregar la siguente linea como un ejemplo:
+        <br>
+        <br>
+
+        &lt;link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /&gt;
+    </p>
+
+
+    <br>
+    <hr>
+
+    <h2>CSS y JS</h2>
+
+    <p>
+        practicamante todos los sitios web contienen sitios web usan CSS para darles un buen aspecto y JS para añadir
+        funcionalidades interacticas.
+
+        la manera mas habitual y la estandarizada es tener documentos separados de cada uno, documenteos de solo HTML,
+        solo CSS y solo JS, para enclar o mandar a llamar los docuemnetos CSS se usa <b>&lt;link&gt;</b> y el elementos
+        <b>&lt;script&gt;</b> para JS
+
+        lo mas comun es que el CSS vaya dentro del head, como en el siguiente ejecmplo
+
+        &lt;link rel="stylesheet" href ="my-css-file.css"&gt; donde <b>rel="stylesheet"</b> indica que es una hoja de
+        estilo y <b>href</b> indica la direccion en donde se ubica, lo mas comun es usar direccion relativa
+
+        <br>
+        <br>
+        el elemento <b>&lt;script&gt;</b> tambien puede ir en el <b>&lt;head&gt;</b>. pero lo mas comun es que vaya
+        hasta el final, lo ultimo que va en la pagina es :
+
+        <b>&lt;script src ="my-js-file.js"&gt;&lt;script/&gt;</b> <br>
+        pero poque se pone al final?, esto se hace para que cargue el HTML y CSS primero y al final porque por lo
+        general es lo mas pesado se carga el JS.
+
+    </p>
 </body>
+
 </html>
