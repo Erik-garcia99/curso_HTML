@@ -63,6 +63,196 @@
         porque necesitamos semantica?
     </h2>
 
+    <p>
+
+        la semantica es lo que le da un verdadero setido al contenido que vamos a tener en nuestra pagina, los que hay
+        dentro de ella el usuario o el mismo navegador debe de saber lo que es, como funciona o lo significa si no se
+        hace asi solo genreara confucion.
+
+        en HTML hay elemetnos <b>semanticos y no semanticos</b> como el elemento &lt;h1&gt; que funcina como el titulo
+        del contenido de la pagina.
+    </p>
+
+    <h2>listas</h2>
+
+    <p>
+        las listas son solo eso, listas, pero en HTML existen las <b>listar ordenadas y las listas no ordenadas</b>
+    </p>
+
+    <h3>listas no ordenadas</h3>
+
+    <p>
+        estas se usan para listar articulos cuyo orden no es importante. estas se indican con la etiqueta
+        <b>&lt;ul&gt;</b> <b><i>unordered list</i></b>, este delimita a los elentos de la lista, y los elementos de la
+        lista se marcan con la etiqeuta <b>&lt;li&gt;</b> <b><i>list item</i></b>,
+
+        <br><br>veamos el sigueinte ejemplo:
+    </p>
+
+    <ul>
+        <li>
+            leche
+        </li>
+
+        <li>
+            huevos
+        </li>
+
+        <li>
+            pan
+        </li>
+
+        <li>
+            humus
+        </li>
+    </ul>
+
+
+    <h2>
+        listas ordenadas
+    </h2>
+
+    <p>
+        estas son el contrario, en estas el orden de los elementos si importa, el listado de los elemtnso de la lista
+        sigue siendo igual <b>&lt;li&gt;</b>, pero ahora el que enmarca a estos elementos es la etiqeuta
+        <b>&lt;ol&gt;</b> <b><i>ordered list</i></b>
+
+        <br><br>
+
+        ejemplo:
+    </p>
+
+    <ol>
+        <li>condice hasta el final de la calle</li>
+        <li>gira a la derecha</li>
+        <li>sigue derecho por los dos primreas glorietas</li>
+        <li>gira a la izquierda en la tercer glorieta</li>
+        <li>el colegio esta a tu derecha, 300 metros mas adelante</li>
+    </ol>
+
+
+    <h2>ejemplo activos</h2>
+
+    <p>vamos a organizar, a darle un sentido al contenido del siguetne repo:
+        html/introduction-to-html/html-text-formatting/text-start.html</p>
+
+    <h1>
+        quick humus recipe
+    </h1>
+
+    <p>
+        This recipe makes quick, tasty hummus, with no messing. It has been adapted from a number of different recipes
+        that I have read over the years.
+
+        Hummus is a delicious thick paste used heavily in Greek and Middle Eastern dishes. It is very tasty with salad,
+        grilled meats and pitta breads.
+    </p>
+
+    <h2>ingredents</h2>
+
+    <ul>
+        <li> 1 can (400g) of chick peas (garbanzo beans)</li>
+        <li> 175g of tahini</li>
+        <li> 6 sundried tomatoes</li>
+        <li> Half a red pepper</li>
+        <li>A pinch of cayenne pepper</li>
+        <li>1 clove of garlic</li>
+        <li>A dash of olive oil</li>
+    </ul>
+
+    <h2>instructions</h2>
+
+    <ol>
+        <li>Remove the skin from the garlic, and chop coarsely</li>
+        <li>Remove all the seeds and stalk from the pepper, and chop coarsely</li>
+        <li>Add all the ingredients into a food processor</li>
+        <li>Process all the ingredients into a paste.</li>
+        <li>If you want a coarse "chunky" hummus, process it for a short time</li>
+        <li>If you want a smooth hummus, process it for a longer time</li>
+    </ol>
+
+    <p> For a different flavour, you could try blending in a small measure of lemon and coriander, chili pepper, lime
+        and chipotle, harissa and mint, or spinach and feta cheese. Experiment and see what works for you.</p>
+
+
+    <h2>Storage</h2>
+
+    <ul>
+        <li>Refrigerate the finished hummus in a sealed container. You should be able to use it for about a week after
+            you've made it. If it starts to become fizzy, you should definitely discard it.</li>
+        <li>Hummus is suitable for freezing; you should thaw it and use it within a couple of months.</li>
+    </ul>
+
+
+    <h3>
+        listas anidadas
+    </h3>
+
+    <p>
+        es posible anidas listas
+    </p>
+
+    <h2>enfasis e importancia</h2>
+
+    <p>
+        HTML nos dota de varios elemetnos semanticos que nos permiten destacar contenido textual como tales efectos.
+    </p>
+
+    <h3>enfasis</h3>
+
+    <p>
+        Cuando queremos dar énfasis al lenguaje hablado, acentuamos ciertas palabras y así alteramos sutilmente el
+        significado de lo que decimos. De manera similar, en el lenguaje escrito ponemos palabras en cursiva para
+        destacarlas
+
+        <br><br>
+
+        en HTML usamos <b>&lt;em&gt;</b> para marcar esos caos. El navegador, de manera predeterminada, aplica el estilo
+        de
+        letra itálica, pero no debes utilizar esta etiqueta solamente para establecer el estilo de letra itálica.
+    </p>
+    <p>ejemplo:</p>
+    <p>Me <em>alegro</em> de que no llegues <em>tarde</em>.</p>
+
+
+    <h3>importante fuerte</h3>
+
+    <p>
+        Para enfatizar palabras importantes al hablar solemos acentuarlas, y al escribir lo hacemos en estilo
+        <b>negrita</b>
+
+        <br><br><b>a lo largo de estos documento he usado la etiqueta <i>&lt;b&gt;</i> para resaltar palabras, esta
+            etiqeuta no tiene significado semantico, surguio para darle estilo antes de HTML, pero la etiqueta a
+            continuacion si tiene significado semantico</b>
+
+        <br><br>
+        en HTML se usa la etiuqeta <b>&lt;strong&gt;</b> para marcar una importancia fuerte
+    </p>
+
+
+    <h3>cursiva, negrita, subrayado</h3>
+
+    <p>
+        los elementos antes de aqui en su mayoria tiene un sentido semantico pero, <b>&lt;b&gt; (negrita o bold),
+            &lt;i&gt;(curciva o italic) y &lt;u&gt; (subrayado o underline)</b> surgieron para darle estilos en un
+        inicio a paginas en navegadores donde no soportaban un CSS.
+
+        <br><br>HTML5 les dio un significado smenatico los cuales responden a lo sigueinte:
+    </p>
+
+    <ul>
+        <li><b>&lt;i&gt;</b> :se usa para transmitir el significado que tradicionalmente transmite la itálica:
+            extranjerismos, clasificaciones taxonómicas, conceptos técnicos, un pensamiento </li>
+
+        <li> <b>&lt;b&gt;</b> :se usa para transmitir el significado que tradicionalmente transmite la negrita: palabras
+            clave, nombres de productos, frases principales...</li>
+
+        <li> <b>&lt;u&gt;</b>:se usa para transmitir el significado que tradicionalmente conlleva el subrayado: nombres
+            propios, errores ortográficos... </li>
+    </ul>
+
+
+
 
 </body>
 
