@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagen de fondo en etiquetas</title>
+</head>
+
+
+<body>
+        <!-- 
+        &lt;a&gt;
+    -->
+    <style>
+
+        body{
+            background-image: url('/curso_HTML/recursos/imagenes/alita-3p77s7iq26oimqxl.jpg');
+        }
+
+    </style>
+    
+    <a href="/curso_HTML/index.html">HOME</a>
+
+    <h1>imagen en fonde en elemtnos de HTML</h1>
+
+    <p>
+        agregar un fondo de imagen en un elemtno de html es usando el atributo <b>style</b> y usando la propiedad de CSS de <b>background-image</b> esto si se trata en el mismo tag de HTML, pero <b>la practica adecuada es usar un o un grupo de archivos que se dediquen solo al CSS en donde se le da este fromato. </b>
+    </p>
+    <br>
+    <p>pero por ahor imaginemos que estamos pendejos y sabemos por lo que lo podemos usar en una sola linea </p><br>
+
+    <p>
+        &lt;p style="background-image: url('img_girl.jpg');"&gt;
+    </p>
+    <p>vemos como usamos comillas simples para definir la direccion esto porque estmos usando las comillas dobles para el valro del atributo, esto es algo importante porqeu si usamos las comillas dobles nos dara error, dado que a lo mejor quiere interpretar que es otro valor</p>
+    
+    <hr>
+
+    <h2>imagen de fondo en la paguina</h2>
+
+    <p>
+        esto se hacemo mediante un archivo CSS solo en este apartado pero de igual froma si estamos pendejos lo hacemos en el mismo HTML lo cual seria 
+        <br>
+        &lt;style&gt;
+            body{
+                background-image:url('img_girl.jpg');
+            }
+        &lt;/style&gt;
+
+        <br>
+        con esto me pondra esa imagne de fondo en toda la pagina como vamos a ver en el ejemplo que tenemos en la aprte de arriab 
+    </p>    
+
+
+    <hr>
+    <h2>repeticion de fondo</h2>
+
+    <p>
+        si la imagen de fonode es mas peqnia que el elemntos, la imagen se repstira horizontal y vertical hasta que se complete el elementos 
+        vemos una pagina 
+
+        <a href="/curso_HTML/recursos/pag_muestras/backgr_img_rep.html" target="_blank">vemos el sigeuinte ejemplo</a>
+
+        <br>
+        bueno en este ejemplo la imgane es un poco mas grande pero igual se repite, si no queremos eso ponemos el argumento 
+        <br>
+        <strong>background-repeat: no-repeat;</strong>
+
+        <br>
+        con eso no repetira la imagen
+    </p>
+
+</body>
+</html>

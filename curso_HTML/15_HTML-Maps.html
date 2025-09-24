@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Mpas</title>
+</head>
+<body>
+    <!-- 
+        &lt;a&gt;
+    -->
+
+    <a href="/curso_HTML/index.html">HOME</a>
+
+    <H1>HTML MAPS</H1>
+
+    <p>
+        la etiqueta <b>&lt;map&gt;</b> define un mapa de imagen. una imagen con zonas <b>clickeables</b><br>
+        estas areas estan definidas con una o mas etiqeutas <b>&lt;area&gt;</b>
+    </p>
+
+    <hr>
+    <h2>La imagen</h2>
+
+    <p>
+        para poder usar una imagen como una mapa de imgane usamos ls etiqeuta <b>&lt;img&gt;</b> con la diferencia que debemos agregar el atributo <b>usemap</b><br>
+
+        como en el siguiente ejemplo:<br>
+        <b>&lt;map  src ="workplace.jpg" alt="WokPlace" usemap="#wokmap"&gt;</b>
+        
+        <br>
+        el valor <b>usempa</b> el valor comienza con la etiqeuta hash <b>#</b> seguido por el nombre del mapa de la imagen. se usa para crear una relacion entre la imageny el mapa de la imagen
+    </p>
+
+
+    <hr>
+    <h2>crear el mapa de la imagen</h2>
+    <p>
+        a continacion se agrega un <b>&lt;map&gt;</b>
+
+        <br>
+
+        el <b> &lt;map&gt; </b> es el elementos que se utiliza para crear un mapa de la imagen y esta vinculado a la imgaen mediante el uso del <b>name</b>
+
+        <br>
+        <b>&lt;map name ="workmap"&gt;<br>
+            <br>
+            <br>
+            &lt;/map&gt;
+
+        </b>
+
+        <br>
+        el <b>name</b> debe de tenre el mismo valroq ue el de &lt;img&gt;
+    </p>    
+
+    <hr>
+    <h2>las zonas</h2>
+
+    <p>
+        un area clicleable se define mednia un &lt;area&gt; elemento
+
+        <br>
+        para poder defnir la froma del area clicleable se puede elegir uno de los sigueitne parametros 
+
+    </p>
+
+    <ul>
+        <li><b>rect</b> - define una region rectangular</li>
+        <li><b>circle</b>- deifine un area circular</li>
+        <li><b>poly</b> define una region poligonal</li>
+        <li><b>default</b>define toda la region</li>
+    </ul>
+    
+    <p>tambien se puede definir algunas coordenas para poder colocar el are clickable</p>
+
+    <hr>
+    <h2>Shape = "rect"</h2>
+
+    <p>las coordenadas para <b>shape="rect"</b> viene un pares, uno para el eje x y otro para el eje y, debemos de especificar dentro de un parametro <b>coords="x1,y1,x2,y2"</b> las coordenadas, para un ejemplo rectangular el extermo superior izqueirdo y el extremo inferior derecho con esto se podra definir el area clickeable en formade un rectangulo sumado al atrinbuto <b>href="url"</b> podemos definir que al dar clcik en este mismo nos mande a un archivo html</p>
+
+    <hr>
+    <h2>Shape = "cin"</h2>
+
+    <p>
+        la froma de un circulo es basicmante lo mismo la diferencia es que buscaremos el centro del circulo y se le agrega el radio de esta misa, dentro del mismo atributo de <b>coors="x,y,r"</b>
+    </p>
+
+</body>
+</html>
