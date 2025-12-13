@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>donde va JS</title>
+</head>
+<body>
+
+    <!-- 
+        &lt;a&gt;
+    -->
+    
+    <a href="index.html">HOME</a>
+
+    <h2>insertar  la etiqueta <strong>&lt;scritp&gt; &lt;/scritp&gt;</strong> </h2>
+    <p>la etiqueta <strong>&lt;scritp&gt; &lt;/scritp&gt;</strong> insertan el codigo JS de la pagina web, pero al igual que pasa con CSS el codigo JS lo ideal es que se mantenga en un docuemento dedicado a JS  <br>
+    
+    en a diferencia de CSS 1que va en el &lt;head&gt; un archivo con JS suele ser mas pesado tener mas cosas que traer de CDN's, API's, etc.. entonces cunado se inserta un archiov JS se inserta <b>al final del body</b> es lo ultimo que se carga en una pagina <br>
+    esto se hace con el fin de presentar la pagina primero y despues se carga las funcionalidades, porque si se hiciera en el header la pagina tardaria en cargar. 
+    </p>
+
+    <p>veamos el siguente ejemplo de una funcion de JS <b><a href="codigo_JS/1_ejemplo.html" target="_blank">ejemplo</a></b></p>
+
+    <h2>importacion declaraion de codigo JS</h2>
+
+    <p>
+        como se menciono lo ideal es tener archivos JS por separados que solo manejesn el JS e importarlos desde el HTML al final del body, estos deberiam de estar en una carpeta que sea sencillo para cualquier programador saber que en x ruta esta el JS de la aplicacion (si es se esta trabajando con este)
+        <br>
+        la froma de importar un codigo js es de la sigueinte forma
+        <br>
+
+        &lt;script <b>src</b>= "myScript.js"&gt;&lt;/script&gt; 
+        <br>
+        en donde <b>"myScript.js"</b> es la ruta a nuestro codigo JS este va a responder si es <strong>realtivo o absoluto</strong>
+    </p>
+
+    <h2>rutas relativas y absolutas</h2>
+
+    <p>
+        <b>una ruta realtiva</b> es una ruta a un archivo partiendo de la direccion actual. <br>
+        si estamos en una ruta <b>x</b> y tenemos un documento en la ruta <b>y</b> que esta al mismo nivel, tan solo nos difirimos a el prtiendo de donde estamso 
+        <strong>y/documento.js</strong>
+        
+        <br><br>
+        <b>una ruta absoluta</b> es como el link de una pagina web, tiene desde el inicio hasta donde queremos llegar, en un docuemnto de nuestra computadora seria como ir desde C:/..../.../documento.js 
+        <br>este no es el ideal para paginas web, etc. porque las paginas al final estran montados en un servidor para las ir hacia carpetas que tienen documentos que neceistamos se hace por rutas relativas
+        <br>
+        las rutas absolutas son mas que nada para aspectos de nuestra propia computadora o un link de internet. 
+    </p>
+
+
+</body>
+</html>
