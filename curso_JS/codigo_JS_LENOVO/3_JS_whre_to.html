@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Where To</title>
+
+    <script>
+        function myFuction(){
+
+            document.getElementById("demo").innerHTML = "Paragraph changed.";
+
+        }
+    </script>
+</head>
+<body>
+    <h1>JavaScript Where To</h1>
+
+    <h2>Tag &lt;script&gt;</h2>
+    
+    <p>para insertar codigo JS dentro de un dcuemnto HTML se pueden hacer de 2-3 maneras aunque 1 es casi lo mismo, 
+    </p>
+
+    <p>
+        se puede ingresar codigo JS desde la etiqueta <strong> &lt;script&gt;... &lt;/script&gt; </strong> dentro de la etiqueta <strong>&lt;head&gt;</strong>  
+
+        dentro de las etiqetas de script podemos escribir el codigo JS que se necesite dentro de nuestro docuemto HTML 
+
+        <br>
+        ventajas que tiene este metodo creo que no tiene ninguno mas que la implementacion sera mas simple, porque el codigo esta insertado dentro del mismo docuemnto HTML. 
+
+        <br>
+        la gran desventaja es que no puede reutilizar ese coigo JS, no puede ser llamada pr otro documenot HTML que a lo mejor necesita unas funciones que estara en este docuemento, por lo que seria generar el mismo codigo en otro documento eso no es para nada adecuado el debuguear eso es posible para un proyecto de unas cunatas paginas pero para un proyecto de miles de docuemntos paginas, etc.., ??
+    </p>
+
+    <h2>docuemento JS independiente</h2>
+    <p>la opcion mas adecuada para utilizar coigo JS es tener un docuemnto JS independeinte en el cual solo haya coigo JS, esto es para todos, un archivo solo par JS, uno solo para HTML y uno solo para CSS, solo en cosas muy especificas, cosas que son ultra chicas y rapidas se podria ingresar cdigo de CSS y de JS dentro de HTML pero recordar que estos codigos tienen jerarquias de cual es el que se mostrara dependinedo de una jerarquia</p>
+
+    <p>para poder insertar coigo JS desde otro docuemntos con terminacion .js es mediangt igual la etiqueta &lt;script&gt;  solo que este tiene el parametro <strong>src=""</strong> en donde entre comillas va la direccion, este codigo por lo general se inserta hasta el final del archivo </p>
+
+    <p>en este docuemnto podnremos un ejemplo de codigo inserfado dentro de HTML</p>
+
+    <p id="demo">a paragraph</p>
+    <button type="button" onclick="myFuction()">try it</button>
+
+
+</body>
+</html>

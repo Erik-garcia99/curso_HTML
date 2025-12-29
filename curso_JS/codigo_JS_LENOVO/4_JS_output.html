@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS output</title>
+
+</head>
+<body>
+    <h2>JS posibles salidas a pantalla</h2>
+    <ul>
+        <li>escribir dentro de HTML usando <b>innerHTML</b> o <b>innerText</b></li>
+        <li>escribiendo en la salida de HTML usando <b>document.write()</b> </li>
+        <li>escribiendo dentro del alert box usando <b>windows.alert()</b></li>
+        <li>escribiendo dentro de la consola del buscador usando <b>console.log()</b></li>
+    </ul>
+
+    <h2>usando <b>innerHTML</b></h2>
+
+    <p>
+        para acceder a un elemetno HTML podemos usar <b>docuemnt.getElementById(id)</b>
+        
+        usando el identificador <b>id</b> de la etiqueta de HTML. usando <b>innerHTML</b> cambia la el contenido dentro del elemtno de HTML 
+    
+    </p>
+
+
+    <p id="demo"></p>
+     <script>
+        //funcion de innerHTML 
+
+        document.getElementById("demo").innerHTML="<h2>Hello World!</h2>";
+    </script>
+
+    <h2>usando innerText</h2>
+
+    <p>
+        se puede usar el mismo metodo, para poder sbaer que elemento es el que se va a cambiar  veamos el sieguiente ejemplo 
+    </p>
+
+    <p id="demo_1"></p>
+    <script>
+        document.getElementById("demo_1").innerText="hello world";
+    </script>
+
+    <h2>usando <b>document.write()</b></h2>
+
+    <p>
+
+    </p>
+
+</body>
+</html>
