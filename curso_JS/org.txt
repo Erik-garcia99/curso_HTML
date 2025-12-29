@@ -1,0 +1,2 @@
+en esta carpeta estaremos realizando los apuntes y todo del repasdo para JS de
+3wSchool link: https://www.w3schools.com/js/js_intro.asp

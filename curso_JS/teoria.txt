@@ -1,0 +1,7 @@
+1-JS es el lenguaje de porgramacion de la web, con JS se puede cambiar los
+valores de los atributos de HTML 
+
+JS puede cambiar los estilos CSS dependiendo de los eventos que puedan darse 
+
+
+2- JS where to
