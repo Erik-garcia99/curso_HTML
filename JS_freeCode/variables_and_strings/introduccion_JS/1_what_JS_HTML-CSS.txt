@@ -1,0 +1,1 @@
+JS es el lenguaje que le da vida a una pagina web, mientras HTML y CSS se encargan de 
