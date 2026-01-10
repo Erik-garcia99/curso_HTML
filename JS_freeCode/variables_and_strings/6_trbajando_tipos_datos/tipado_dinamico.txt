@@ -1,0 +1,12 @@
+en JS no es necesario especificar qu tipo de dato va a almacenar una vairbale como puede pasar con C / Java, etc. 
+
+JS puede cambiar el tipo de valor que puede alamcenar un valor puede alamcanr un string despues un numero o un arreglo, puede depender la situacion o lo que necesita el programa. 
+
+//// error typeof
+
+el operador < typeof > es una herramienta para ver el tipo de dato de una vasirbale o valor. 
+
+simple,ente devuelve una cadena indicando el tipo. 
+
+
+
