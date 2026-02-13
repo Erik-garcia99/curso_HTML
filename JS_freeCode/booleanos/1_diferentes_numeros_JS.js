@@ -19,4 +19,21 @@
 
 //2 - operadores aritemeticos de JS 
 
+//tenemos :
+
+/**
+ * 
+ * + - suma 
+ * - - resta puede devolver un numero negativo
+ * * -  multiplicacion
+ * / - divicion, 
+ * % - modulo -> devulve el resto de una divicion
+ * ** - potencia 
+ *  
+ * 
+ * 
+ * 
+ * 
+*/
+
 
